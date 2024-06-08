@@ -23,12 +23,13 @@ function FirstScreen() {
     ]
 
     const popcovers = [
-        '/assets/photos/rock/rockalbum1.jpg',
-        '/assets/photos/rock/rockalbum2.jpg',
-        '/assets/photos/rock/rockalbum3.jpg',
-        '/assets/photos/rock/rockalbum4.jpg',
-        '/assets/photos/rock/rockalbum5.jpg',
-        '/assets/photos/rock/rockalbum6.jpg'
+        '/assets/photos/pop/breezy.jpg',
+        '/assets/photos/pop/adele.jpg',
+        '/assets/photos/pop/khalid.jpg',
+        '/assets/photos/pop/jl.jpg',
+        '/assets/photos/pop/sm.jpg',
+        '/assets/photos/pop/theweekend.jpg',
+       
     ]
 
     const countrycovers = [
@@ -54,7 +55,7 @@ function FirstScreen() {
             <div className=' grid grid-cols-3 gap-x-10 gap-y-10'>
             <GenreCard covers={rapcovers} genre="Rap" textColor="text-[#ffcc70]" borderColor="border-[#ffcc70]" shadowColor="shadow-[#ffcc70]" />
             <GenreCard covers={housecovers} genre="House" textColor="text-[#ff6699]" borderColor="border-[#ff6699] " shadowColor="shadow-[#ff6699]" />
-            <GenreCard covers={popcovers} genre="Pop" textColor="text-[#6699ff]" borderColor="border-[#6699ff]" />
+            <GenreCard covers={popcovers} genre="Pop" textColor="text-[#6699ff]" borderColor="border-[#6699ff]" shadowColor="shadow-[#6699ff]" />
             <GenreCard covers={countrycovers} genre="Country" textColor="text-[#cc9966]" borderColor="border-[#cc9966]" />
             <GenreCard covers={jazzcovers} genre="Jazz" textColor="text-[#66cc99]" borderColor="border-[#66cc99]" />
             </div>

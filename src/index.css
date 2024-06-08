@@ -24,7 +24,8 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   color: #ddd;
-  background: black;
+  background: rgb(20, 20, 20);
+  
 }
 
 a {
